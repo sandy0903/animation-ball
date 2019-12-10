@@ -1,0 +1,57 @@
+body{
+	background-color:#FADEAD;
+}
+div{
+	height:100px;
+	width:100px;
+	position:relative;
+	border-radius:50%;
+	background-color:#FFA07A;
+	margin-top:20px;}
+#animation{
+	position:relative;
+	animation-name: ball;
+	animation-duration: 5s;
+	animation-direction: forwards;
+	
+}
+.ball1{
+	float:left;
+    margin-left:30%;
+
+
+
+}
+.face1{
+	background-color:#F5DEB3;
+	width:50px;
+	height:50px;
+	margin-left:25px;
+	margin-top:25px;
+
+}
+.ball2{
+	float:right;
+	margin-right:30%;
+	
+
+
+}
+p{
+	margin-top:100px;
+}
+@keyframes ball{
+	0%{background-color: #FFA07A;top:0px;}
+	50%{background-color:#FFA07A;top:300px;}
+	100%{background-color:#FFA07A;top:0px;}
+}
+
+div.ball1:hover .face1{
+    box-shadow: 0 0 30px #FFFF00,0 0 60px #FDF5E8;
+	
+}
+div.ball2:hover .face1{
+    box-shadow: 0 0 30px #FFFF00,0 0 60px #FDF5E8;}
+
+
+
