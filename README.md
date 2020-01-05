@@ -1,1 +1,2 @@
-This is my second app!!!
+this is a first animation icreated.
+ example of github tutorial.
